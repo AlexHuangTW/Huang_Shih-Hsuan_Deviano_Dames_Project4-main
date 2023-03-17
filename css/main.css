@@ -1,0 +1,168 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Remove this rule on your HTML elements as you start to fill them with content*/
+
+.box-color {
+	color: #fff;
+	background: #000;
+	text-align: center;
+	margin: 0;
+}
+
+/*basic reset*/
+
+/*browsers have built in values for elements so we'll reset a few things to zero, you can add to this or remove items as needed*/
+
+div,p,body,header,footer,section,article,nav,ul,li,h2,h3 { 
+	margin: 0; 
+	padding: 0; 
+}
+
+/*html selectors*/
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+/*hide elements from browser but show for doc outline*/
+
+.hidden {
+	display: none;
+}
+
+
+/*Common page elements  */
+
+/*This is essentially a box that we place the whole site in.  
+We center the box using margin 0 auto and give it a fixed width of 1920px.
+1920px would fit a large monitor or tv. Sizes will vary depending on the projects
+you work on and the intended audience */
+
+#container {
+	margin: 0 auto;
+	width: 1920px;
+}
+
+/* this is our grid based off of our XD file */
+
+
+/* 1. header */
+
+#header-con-icon {
+	/* background-color: rgb(98, 187, 255); */
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+#header-logo {
+
+	
+	/* Remove as content will dictate height */
+	/* height: 200px; */
+    margin-bottom: 10px;
+}
+
+/* 2. choose us */
+
+#choose-us {
+	background-color: #000;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 350px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 30px;
+}
+
+#choose-us h2 {
+	font-size: 80px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	/* align-items: center; */
+}
+
+#choose-us h3 {
+	margin-top: 30px;
+	font-size: 40px;
+	text-align: center;
+	color: rgb(255, 255, 255);
+}
+
+/*Common page elements  */
+
+/* 3. footer */
+
+#footer-con {
+	/* background-color: #62bbff; */
+	padding-top: 30px;
+	padding-bottom: 20px;
+	height: auto;
+}
+
+
+#footer-logo {
+	/* grid-column: 6/8; */
+	height: 215px;
+	/* width: 200px; */
+}
+
+#footer-location {
+	/* grid-column: 1/4; */
+	/* Remove as content will dictate height */
+	height: 200px;
+	margin-top: 10px;
+}
+
+
+#footer-useful-link {
+	/* grid-column: 5/8; */
+	/* Remove as content will dictate height */
+	height: 200px;
+	margin-bottom: 50px;
+
+	/* margin-left: 100px; */
+}
+
+
+#footer-social {
+	/* grid-column: 10/-1; */
+	/* Remove as content will dictate height */
+	height: 200px;
+
+}
+
+
+#web-creater {
+	/* grid-column: 5/9; */
+	margin-left: 60px;
+	font-size: 20px;
+}
+
+/* 4. page shop below */
+
+.beers-title-con {
+	margin-top: 50px;
+}
+
+.beers-title {
+	background-color: #18191a;
+	border-bottom: 10px solid #343837;
+	height: 100px;
+	max-width: 1920px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+
+}
+
+.beers-title h3 {
+	color: rgb(255, 255, 255);
+	font-size: 40px;
+	font-weight: bold;
+	grid-column: 2/3;
+	margin-top: 30px;
+}
